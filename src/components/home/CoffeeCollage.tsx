@@ -11,8 +11,8 @@ const collageItems = [
 
 export default function CoffeeCollage() {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-3 gap-4 auto-rows-[200px] md:auto-rows-[250px]">
-      {collageItems.map((item, index) => (
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-4 sm:gap-4 auto-rows-[200px] md:auto-rows-[250px] mx-auto">
+ {collageItems.map((item, index) => (
         <div key={index} className={cn("relative rounded-lg overflow-hidden shadow-lg group", item.className)}>
           <Image
             src={item.src}
@@ -20,7 +20,6 @@ export default function CoffeeCollage() {
             layout="fill"
             objectFit="cover"
             className="transform transition-transform duration-500 ease-in-out group-hover:scale-110"
-            data-ai-hint={item.hint}
             quality={75}
           />
           <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-300"></div>

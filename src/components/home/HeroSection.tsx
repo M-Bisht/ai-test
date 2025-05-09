@@ -21,7 +21,7 @@ export default function HeroSection() {
         <p className="text-xl md:text-2xl text-slate-200 mb-10 max-w-3xl mx-auto">
           Experience the art of premium coffee. Every sip, a masterpiece.
         </p>
-        <div className="space-x-4">
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg">
             <Link href="/menu">View Our Menu</Link>
           </Button>
