@@ -6,13 +6,13 @@ export default function HeroSection() {
   return (
     <section className="relative text-center py-20 md:py-32 rounded-lg overflow-hidden shadow-2xl">
       <Image
-        src="https://picsum.photos/1200/800?random=1"
-        alt="Artistic coffee beans arrangement"
+        src="https://picsum.photos/seed/geometricpattern/1200/800"
+        alt="Abstract geometric background pattern"
         layout="fill"
         objectFit="cover"
         quality={80}
         className="absolute inset-0 z-0 opacity-30"
-        data-ai-hint="coffee beans background"
+        data-ai-hint="geometric pattern"
       />
       <div className="relative z-10 container mx-auto px-4">
         <h1 className="text-5xl md:text-7xl font-playfair font-extrabold text-white mb-6 leading-tight">
