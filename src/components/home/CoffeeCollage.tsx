@@ -6,7 +6,7 @@ const collageItems = [
   { src: 'https://picsum.photos/seed/coffee2/400/600', alt: 'Latte art', hint: 'latte art', className: 'md:row-span-2' },
   { src: 'https://picsum.photos/seed/coffee3/400/300', alt: 'Pour over coffee', hint: 'pour over' },
   { src: 'https://picsum.photos/seed/coffee4/400/300', alt: 'Cold brew coffee', hint: 'cold brew' },
-  { src: 'https://picsum.photos/seed/coffee5/600/400', alt: 'Coffee beans', hint: 'coffee beans', className: 'md:col-span-2' },
+  { src: 'https://picsum.photos/seed/coffee5/600/400', alt: 'Cityscape or Coffee beans', hint: 'cityscape beans', className: 'col-span-2 md:col-span-3' },
 ];
 
 export default function CoffeeCollage() {
@@ -29,3 +29,4 @@ export default function CoffeeCollage() {
     </div>
   );
 }
+
